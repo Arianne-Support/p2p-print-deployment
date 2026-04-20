@@ -18,20 +18,20 @@
 - **Hotfixes** : `hotfix/description`
 - **Maintenance** : `chore/update-readme`
 
-### 📊 Workflow Diagram (v6.0+) / Schéma du Workflow
+### 📊 Workflow Diagram (v1.0+) / Schéma du Workflow
 
 ```mermaid
 gitGraph
-    commit id: "v3.0.0"
+    commit id: "v1.0.0"
     branch dev
     checkout dev
-    commit id: "Bug fixes (v3.1)"
-    commit id: "PS 5.1 Compat (v3.2)"
+    commit id: "Bug fixes (v1.0.1)"
+    commit id: "PS 5.1 Compat (v1.0.1)"
     branch feature/unified-menu
     checkout feature/unified-menu
     commit id: "Interactive menu + Pre-flight check"
     checkout dev
     merge feature/unified-menu
     checkout main
-    merge dev tag: "v4.0.0"
+    merge dev tag: "v1.0.1"
 ```

@@ -60,5 +60,5 @@ Distributed under the **MIT License**. See `LICENSE` for more information.
 Contributions follow a strictly technical and professional workflow. Please read `CONTRIBUTING.md`.
 
 ## 📞 Support
-Developed by **Aksanti** for **Arianne-Support**.
+Developed by **[Aksanti](https://github.com/aksanti)** for **Arianne-Support**.
 Documentation: [Arianne-docs](https://github.com/Arianne-Support/arianne-docs).

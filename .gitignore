@@ -1,0 +1,30 @@
+# Package manager locks
+yarn.lock
+pnpm-lock.yaml
+
+# Archives et Dossiers de Pilotes (volumineux)
+Pilotes_P2P/**/*.zip
+Pilotes_P2P/**/_extracted*/
+Pilotes_P2P/**/temp*/
+*.zip
+
+# Logs
+Logs/
+*.log
+
+# OS Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Environment Variables
+.env
+.env*.local
+
+# IDE & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+walkthrough.md
+er.md

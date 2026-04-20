@@ -1,0 +1,54 @@
+﻿{
+    "Canon_C5560i": {
+        "DisplayName": "Canon iR-ADV C5560i II",
+        "ConnectionType": "TCPIP",
+        "Address": "192.168.1.10",
+        "DriverName": "Canon Generic Plus UFR II",
+        "DriverInfFile": "*.inf",
+        "DriverArchive": "Generic_Plus_UFRII_*.zip",
+        "DriverSubDir": "Canon_C5560i",
+        "PaperSize": "A4",
+        "Duplex": true,
+        "ColorMode": "Color",
+        "Comment": "Canon iR-ADV C5560i II - UFR II"
+    },
+    "Xerox_WC7855i": {
+        "DisplayName": "Xerox WorkCentre 7855i",
+        "ConnectionType": "TCPIP",
+        "Address": "192.168.1.11",
+        "DriverName": "Xerox Global Print Driver PS",
+        "DriverInfFile": "x3UNIVP.inf",
+        "DriverArchive": "*_PS_x64.zip",
+        "DriverSubDir": "Xerox_WC7855i",
+        "PaperSize": "A4",
+        "Duplex": true,
+        "ColorMode": "Color",
+        "Comment": "Xerox WorkCentre 7855i - Global PS Driver"
+    },
+    "KM_C554e": {
+        "DisplayName": "Konica Minolta bizhub C554e",
+        "ConnectionType": "USB",
+        "Address": "bizhub C554",
+        "DriverName": "KONICA MINOLTA Universal Print Driver",
+        "DriverInfFile": "KOBS1J__.inf",
+        "DriverArchive": "KM_UniversalDriver_PCL_3.0.0.0.zip",
+        "DriverSubDir": "KonicaMinolta_Universal",
+        "PaperSize": "A4",
+        "Duplex": true,
+        "ColorMode": "Color",
+        "Comment": "KM bizhub C554e - Universal PCL"
+    },
+    "KM_C754e": {
+        "DisplayName": "Konica Minolta bizhub C754e",
+        "ConnectionType": "USB",
+        "Address": "bizhub C754",
+        "DriverName": "KONICA MINOLTA Universal Print Driver",
+        "DriverInfFile": "KOBS1J__.inf",
+        "DriverArchive": "KM_UniversalDriver_PCL_3.0.0.0.zip",
+        "DriverSubDir": "KonicaMinolta_Universal",
+        "PaperSize": "A4",
+        "Duplex": true,
+        "ColorMode": "Monochrome",
+        "Comment": "KM bizhub C754e - Universal PCL"
+    }
+}

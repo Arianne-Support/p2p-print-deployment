@@ -1,0 +1,28 @@
+name: Release & Package
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Prepare Package
+        shell: pwsh
+        run: |
+          $PackageDir = "P2P_Print_Deployment_v$($env:GITHUB_REF_NAME)"
+          New-Item -ItemType Directory -Path $PackageDir
+          Copy-Item "A-P2P.ps1", "Patch.bat", "VIP_Config.json", "README.md", "LICENSE" -Destination $PackageDir
+          Compress-Archive -Path $PackageDir -DestinationPath "$PackageDir.zip"
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: "*.zip"
+          body_path: CHANGELOG.md
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

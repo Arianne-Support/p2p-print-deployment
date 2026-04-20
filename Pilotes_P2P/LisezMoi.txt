@@ -1,0 +1,5 @@
+Placez les fichiers pilotes extraits (.INF) dans ces dossiers respectifs.
+
+- Canon : CNMPDRV.INF
+- Xerox : xrxgpdps.inf
+- Konica Minolta (554e et 754e) : KOAXH__.INF

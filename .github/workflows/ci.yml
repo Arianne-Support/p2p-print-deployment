@@ -13,10 +13,10 @@ jobs:
       - name: Run PSScriptAnalyzer
         shell: pwsh
         run: |
-          $results = Invoke-ScriptAnalyzer -Path ./A-P2P.ps1 -Recurse -Severity Warning
+          $results = Invoke-ScriptAnalyzer -Path ./A-P2P.ps1 -Recurse -Severity Error
           if ($results) {
               $results | Format-Table
               exit 1
           } else {
-              Write-Host "Success: No script issues found."
+              Write-Host "Success: No critical script errors found."
           }

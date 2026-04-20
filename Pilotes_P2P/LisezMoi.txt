@@ -1,5 +1,17 @@
-Placez les fichiers pilotes extraits (.INF) dans ces dossiers respectifs.
+# GESTION DES PILOTES (Arianne-Support)
 
-- Canon : CNMPDRV.INF
-- Xerox : xrxgpdps.inf
-- Konica Minolta (554e et 754e) : KOAXH__.INF
+## 📁 Pourquoi ce dossier est-il vide ?
+Pour garantir une installation rapide et sécurisée, les archives de pilotes volumineuses (.zip, .msi) ne sont pas stockées sur le dépôt central GitHub. Seuls les fichiers d'indexation (.inf) sont référencés dans la logique du script.
+
+## 🛠️ Instructions pour le Technicien :
+1. **Téléchargement** : Obtenez le pilote officiel (Format .INF / disque) depuis le portail constructeur (Canon, Xerox, Konica Minolta).
+2. **Extraction** : Extrayez l'archive complète.
+3. **Emplacement** : Copiez les fichiers extraits dans le sous-dossier correspondant ci-dessous. Assurez-vous que le fichier `.inf` cible est présent à la racine du sous-dossier.
+
+## 🔍 Fichiers Cibles Attendus :
+- **Canon** : Rechercher `CNMPDRV.INF`
+- **Xerox** : Rechercher `xrxgpdps.inf`
+- **Konica Minolta** : Rechercher `KOAXH__.INF`
+
+> [!IMPORTANT]
+> Ne modifiez pas la structure des dossiers. Le script `A-P2P.ps1` utilise ces chemins relatifs pour automatiser l'installation via le Driver Store Windows.

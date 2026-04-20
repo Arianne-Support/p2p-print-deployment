@@ -1,4 +1,4 @@
-# P2P Print Deployment - Arianne-Support
+# P2P Print - Arianne-Support
 
 [![PowerShell Check](https://github.com/Arianne-Support/p2p-print-deployment/actions/workflows/ci.yml/badge.svg)](https://github.com/Arianne-Support/p2p-print-deployment/actions/workflows/ci.yml)
 [![Documentation](https://img.shields.io/badge/Docs-Arianne--Support-blue.svg)](https://github.com/Arianne-Support/arianne-docs)
